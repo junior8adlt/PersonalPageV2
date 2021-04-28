@@ -276,7 +276,9 @@ select {
 select {
   word-wrap: normal;
 }
-
+.text-or {
+  color: #ff3c2c;
+}
 button,
 [type='button'],
 [type='reset'],
@@ -4664,6 +4666,8 @@ input[type='button'].btn-block {
   background-clip: border-box;
   border: 0.0625rem solid rgba(0, 0, 0, 0.05);
   border-radius: 0.25rem;
+  width: 500px !important;
+  height: 170px !important;
 }
 .card > hr {
   margin-right: 0;
@@ -4784,6 +4788,15 @@ input[type='button'].btn-block {
     margin-right: 15px;
     margin-bottom: 0;
     margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: auto !important;
+    height: auto !important;
+  }
+  .display-3 {
+    font-size: 3.5rem !important;
   }
 }
 

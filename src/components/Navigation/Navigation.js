@@ -18,14 +18,24 @@ import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Navigation = () => {
     const [collapseClasses, setCollapseClasses] = useState("");
+    const [active, setActive] = useState(false)
     const onExiting = () => setCollapseClasses("collapsing-out");
     
     const onExited = () => setCollapseClasses("");
+    const changeActive = () =>{
+      if (window.scrollY >= 80) {
+        setActive(true)
+      }else{
+        setActive(false)
+      }
+    }
+
+    window.addEventListener('scroll', changeActive);
     return ( 
         <>
         <header className="header-global">
           <Navbar
-            className="navbar-main navbar-transparent navbar-light"
+            className={`navbar-main navbar-light ${active ? 'navbar-active' : 'navbar-transparent '}`}
             expand="lg"
             id="navbar-main"
             fixed="top"

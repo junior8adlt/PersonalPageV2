@@ -26,28 +26,30 @@ export const socialLinks = {
 
 export const skillsSection = {
     title: 'What I do',
-    subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+    subTitle: 'FRONTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
     skills: [
       emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+        '⚡ Develop highly interactive Front end / User Interfaces for your web applications'
       ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
       emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+        '⚡ Integration of third party services such as Firebase/ AWS'
+      ),
+      emoji(
+        '⚡ Experience working under the SCRUM mode'
       ),
     ],
     
     softwareSkills: [
       {
-        skillName: 'html-5',
+        skillName: 'HTML5',
         fontAwesomeClassname: 'vscode-icons:file-type-html',
       },
       {
-        skillName: 'css3',
+        skillName: 'CSS3',
         fontAwesomeClassname: 'vscode-icons:file-type-css',
       },
       {
-        skillName: 'sass',
+        skillName: 'SASS',
         fontAwesomeClassname: 'logos:sass',
       },
       {
@@ -59,100 +61,64 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:typescript-icon',
       },
       {
-        skillName: 'reactjs',
+        skillName: 'ReactJs',
         fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
       },
       {
-        skillName: 'nodejs',
+        skillName: 'Vue',
+        fontAwesomeClassname: 'logos:vue',
+      },
+      {
+        skillName: 'Angular',
+        fontAwesomeClassname: 'logos:angular-icon',
+      },
+      {
+        skillName: 'NodeJs',
         fontAwesomeClassname: 'logos:nodejs-icon',
       },
       {
-        skillName: 'flutter',
-        fontAwesomeClassname: 'logos:flutter',
+        skillName: 'React-Redux',
+        fontAwesomeClassname: 'logos:redux',
       },
       {
-        skillName: 'swift',
-        fontAwesomeClassname: 'vscode-icons:file-type-swift',
-      },
-      {
-        skillName: 'npm',
+        skillName: 'NPM',
         fontAwesomeClassname: 'vscode-icons:file-type-npm',
       },
       {
-        skillName: 'sql-database',
-        fontAwesomeClassname: 'vscode-icons:file-type-sql',
+        skillName: 'MYSQL',
+        fontAwesomeClassname: 'logos:mysql',
       },
       {
-        skillName: 'mongoDB',
+        skillName: 'MongoDB',
         fontAwesomeClassname: 'vscode-icons:file-type-mongo',
       },
       {
-        skillName: 'aws',
+        skillName: 'AWS',
         fontAwesomeClassname: 'logos:aws',
       },
       {
-        skillName: 'firebase',
+        skillName: 'Firebase',
         fontAwesomeClassname: 'logos:firebase',
       },
       {
-        skillName: 'python',
-        fontAwesomeClassname: 'logos:python',
-      },
-      {
-        skillName: 'git',
+        skillName: 'GIT',
         fontAwesomeClassname: 'logos:git-icon',
       },
-      {
-        skillName: 'docker',
-        fontAwesomeClassname: 'logos:docker-icon',
-      },
+    
     ],
 }
 
 
-export const SkillBars = [
-    {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90', //Insert relative proficiency in percentage
-    },
-    {
-      Stack: 'Backend',
-      progressPercentage: '70',
-    },
-    {
-      Stack: 'Programming',
-      progressPercentage: '60',
-    },
-  ]
-
 export const educationInfo = [
     {
-      schoolName: 'Harvard University',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
+      schoolName: 'Mario Molina De Chapala Higher Technological Institute',
+      subHeader: 'Degree Computer Systems Engineer',
+      duration: '2015 - 2019',
     },
     {
-      schoolName: 'Harvard',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
+      schoolName: 'Chapala Regional High School',
+      subHeader: 'General Baccalaureate by competencies',
+      duration: '2012 - 2015',
     },
 ]
 
