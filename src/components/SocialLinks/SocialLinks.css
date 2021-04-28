@@ -1,0 +1,22 @@
+.btn-wrapper {
+  display: flex;
+}
+
+.btn-icon-or {
+  background-color: rgb(255, 60, 44);
+  font-size: 20px;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  color: white;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon-or:hover,
+.btn-icon-or:focus {
+  background-color: rgb(255, 60, 44);
+}
