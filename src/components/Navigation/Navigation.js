@@ -14,7 +14,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
-import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare, FaGithub, FaLinkedin, FaBars } from "react-icons/fa";
 
 const Navigation = () => {
     const [collapseClasses, setCollapseClasses] = useState("");
@@ -45,7 +45,7 @@ const Navigation = () => {
                 <h2 className="text-white" id="nav-title">{greetings.name}</h2>
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
-                <span className="navbar-toggler-icon" />
+                <FaBars color='white'/>
               </button>
               <UncontrolledCollapse
                 toggler="#navbar_global"

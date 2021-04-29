@@ -1,5 +1,5 @@
 import React from 'react';
-import EdutionCard from "../../components/Cards/EducationCar";
+import EdutionCard from "../../components/Cards/EducationCard";
 import { educationInfo } from "../../data/data";
 import {
     Container,
@@ -13,7 +13,7 @@ const Education = () => {
             <Container>
                 <div className="d-flex px-3">
                     <div>
-                        <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-or">
+                        <div className="icon icon-lg icon-shape bg-white shadow rounded-circle ">
                         <FaBook/>
                         </div>
                     </div>

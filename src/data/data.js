@@ -2,7 +2,7 @@ import emoji from 'react-easy-emoji';
 import rokode from '../assets/img/rokode.png'
 import edgebound from '../assets/img/edgebound.png'
 import golstats from '../assets/img/golstats.png'
-
+import ferax from '../assets/img/ferax.png'
 export const greetings = {
     "name": "Alberto Ochoa",
     "title": "Hi all, I'm Alberto",
@@ -11,7 +11,7 @@ export const greetings = {
 }
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'junior8adlt',
 };
 
 export const contact = {
@@ -89,6 +89,10 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:mysql',
       },
       {
+      skillName: 'PostgreSQL',
+      fontAwesomeClassname: 'logos:postgresql'
+      },
+      {
         skillName: 'MongoDB',
         fontAwesomeClassname: 'vscode-icons:file-type-mongo',
       },
@@ -124,32 +128,77 @@ export const educationInfo = [
 
 export const experience = [
   {
-    role: 'Software Engineer',
-    company: 'Google',
+    role: 'Frontend Developer',
+    company: 'Edgebound',
     companylogo: edgebound,
-    date: 'June 2018 – Present',
+    date: 'January 2021 – Present',
     desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Here I worked mostly for Commerce projects such as Claro Colombia & Telcel, responsibilities:',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Structure the frontend part of the site with React.',
+      'Integrate the REST API Services with the structure of the site with React.',
+      'Develop of reusable components with React.',
+      'For consume the REST API Services we use Axios.',
+      'We use Redux Thunk for use async await functions on Redux.',
+      'For REST API Services we use HCL Commerce and VTEX.',
+      'Organize and manage development task with Jira.',
+      'Work under the SCRUM mode.'
     ],
   },
   {
-    role: 'Front-End Developer',
-    company: 'Github',
+    role: 'Frontend Lead Developer',
+    company: 'Rokode',
     companylogo: rokode,
-    date: 'May 2017 – May 2018',
+    date: 'July 2019 – November 2020',
     desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Here I developed multiple projects for car builders such as Audi, Porsche and Volkswagen, as well as managing the administration and control of the frontend department.',
+      descBullets: [
+        'Structure the frontend part of the site with React & Vue.',
+        'Integrate the REST API Services with the structure of the site with React & Vue.',
+        'Develop of reusable components with React & Vue.',
+        'For consume the REST API Services we use Axios.',
+        'We use Redux Thunk for use async await functions on Redux.',
+        'For REST API Services we use we use the endpoints provided by the backend team.',
+        'Organize and manage development task with Jira.',
+        'Work under the SCRUM mode.'
+      ],
   },
   {
-    role: 'Software Engineer Intern',
-    company: 'Airbnb',
+    role: 'Vue Developer',
+    company: 'Golstats',
     companylogo: golstats,
-    date: 'Jan 2015 – Sep 2015',
+    date: 'June 2020 – Octuber 2020',
     desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      'Here I developed a system for the management and administration of the Qatar 2022 Soccer World Cup',
+      descBullets: [
+        'Structure the frontend part of the site with Vue.',
+        'Integrate the REST API Services with the structure of the site with Vue.',
+        'Develop of reusable components with Vue.',
+        'For consume the REST API Services we use vanilla fetch.',
+        'We use Vuex for a better management of the property in the project.',
+        'For REST API Services we use we use the endpoints provided by the backend team.',
+        'Organize and manage development task with Trello.',
+        'Work under the SCRUM mode.'
+      ],
+  },
+  {
+    role: 'Frontend & Mobile Developer',
+    company: 'Ferax',
+    companylogo: ferax,
+    date: 'July 2018 – April 2020',
+    desc:
+      'Here I developed a system for the administration of a garbage collection company, as well as developing a mobile application to rent objects.',
+      descBullets: [
+        'Structure the frontend part of the site with Angular and React.',
+        'Structure the visual part of the application with React Native.',
+        'Integrate the REST API Services with the structure of the site Angular y React Native.',
+        'Develop of reusable components with Angular and React Native.',
+        'For consume the REST API Services we use Axios.',
+        'We use Redux for a better management of the property in the project.',
+        'For REST API Services we use we use the endpoints provided by the backend team.',
+        'Organize and manage development task with Trello.',
+        'Work under the SCRUM mode.'
+      ],
   },
 ]
 
@@ -166,7 +215,7 @@ export const projects = [
     name: "lorem ipsum",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     link: {
-      name: "hanzla",
+      name: "lorem",
       url: "kasjfklsdjf"
     }
   }
