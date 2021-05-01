@@ -3,6 +3,7 @@ import rokode from '../assets/img/rokode.png'
 import edgebound from '../assets/img/edgebound.png'
 import golstats from '../assets/img/golstats.png'
 import ferax from '../assets/img/ferax.png'
+import pentalog from '../assets/img/pentalog.png'
 export const greetings = {
     "name": "Alberto Ochoa",
     "title": "Hi all, I'm Alberto",
@@ -127,11 +128,30 @@ export const educationInfo = [
 ]
 
 export const experience = [
+  
+  {
+    role: 'Senior Software Engineer',
+    company: 'Pentalog',
+    companylogo: pentalog,
+    date: 'May 2021 – Present',
+    desc:
+      'Here I worked mostly for multiple projects for a US Clients usin Reac as a main technology:',
+    descBullets: [
+      'Structure the frontend part of the site with React.',
+      'Integrate the REST API Services with the structure of the site with React.',
+      'Develop of reusable components with React.',
+      'For consume the REST API Services we use Axios.',
+      'Use of redux for a better management of the general state in the web application',
+      'We use Redux Thunk for use async await functions on Redux.',
+      'Organize and manage development task with Jira.',
+      'Work under the SCRUM mode.'
+    ],
+  },
   {
     role: 'Frontend Developer',
     company: 'Edgebound',
     companylogo: edgebound,
-    date: 'January 2021 – Present',
+    date: 'January 2021 – May 2021',
     desc:
       'Here I worked mostly for Commerce projects such as Claro Colombia & Telcel, responsibilities:',
     descBullets: [
