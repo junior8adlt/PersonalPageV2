@@ -135,15 +135,16 @@ export const experience = [
     companylogo: pentalog,
     date: 'May 2021 – Present',
     desc:
-      'Here I worked mostly for multiple projects for a US Clients usin Reac as a main technology:',
+      'Here I worked mostly for multiple projects for a US Clients usin React as a main technology:',
     descBullets: [
       'Structure the frontend part of the site with React.',
       'Integrate the REST API Services with the structure of the site with React.',
       'Develop of reusable components with React.',
       'For consume the REST API Services we use Axios.',
-      'Use of redux for a better management of the general state in the web application',
+      'Use of Redux for a better management of the general state in the web application',
       'We use Redux Thunk for use async await functions on Redux.',
       'Organize and manage development task with Jira.',
+      'Management of third party APIS such AWS and Firebase',
       'Work under the SCRUM mode.'
     ],
   },
