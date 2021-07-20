@@ -4,6 +4,8 @@ import edgebound from '../assets/img/edgebound.png'
 import golstats from '../assets/img/golstats.png'
 import ferax from '../assets/img/ferax.png'
 import pentalog from '../assets/img/pentalog.png'
+import improving from '../assets/img/improving.png'
+
 export const greetings = {
     "name": "Alberto Ochoa",
     "title": "Hi all, I'm Alberto",
@@ -128,6 +130,26 @@ export const educationInfo = [
 ]
 
 export const experience = [
+  {
+    role: 'Software Specialist',
+    company: 'Improving',
+    companylogo: improving,
+    date: 'May 2021 – Present',
+    desc:
+      'Here I worked mostly for multiple projects for a US Clients usin React & Vue as a main technologys:',
+    descBullets: [
+      'Structure the frontend part of the site with React & Vue.',
+      'Integrate the REST API Services with the structure of the site.',
+      'Develop of reusable components with React & Vue.',
+      'For consume the REST API Services we use Axios & Fetch.',
+      'Use of Redux and Vuex for a better management of the general state in the web application',
+      'We use Redux Thunk for use async await functions on Redux.',
+      "Use Redux persist to preserve the global state of redux",
+      'Organize and manage development task with Jira.',
+      'Management of third party API such AWS',
+      'Work under the SCRUM mode.'
+    ],
+  },
   
   {
     role: 'Senior Software Engineer',
