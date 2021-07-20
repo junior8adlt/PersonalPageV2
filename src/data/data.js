@@ -134,7 +134,7 @@ export const experience = [
     role: 'Software Specialist',
     company: 'Improving',
     companylogo: improving,
-    date: 'May 2021 – Present',
+    date: 'July 2021 – Present',
     desc:
       'Here I worked mostly for multiple projects for a US Clients usin React & Vue as a main technologys:',
     descBullets: [
