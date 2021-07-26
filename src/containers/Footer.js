@@ -11,9 +11,11 @@ const Footer = () => {
             .then(res => setProf(res.data))
             .catch(err => console.log(err))
     }
+    
     useEffect(() => {
         getProfileData()
-    });
+    },[]);
+
     return ( 
         <Suspense fallback={<Loading />}>
            <GithubProfileCard prof={prof}/>
