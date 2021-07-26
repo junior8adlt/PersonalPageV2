@@ -4,7 +4,7 @@ import edgebound from '../assets/img/edgebound.png'
 import golstats from '../assets/img/golstats.png'
 import ferax from '../assets/img/ferax.png'
 import pentalog from '../assets/img/pentalog.png'
-import improving from '../assets/img/improving.png'
+// import improving from '../assets/img/improving.png'
 
 export const greetings = {
     "name": "Alberto Ochoa",
